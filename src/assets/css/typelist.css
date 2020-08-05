@@ -1,0 +1,25 @@
+.type{
+    background: #fff;
+    padding: 10px;
+    line-height: 30px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 微软雅黑;
+}
+.type a {
+    display: block;
+    padding: 0 20px;
+    border-radius: 20px;
+    transition: all .3s;
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+}
+.type .router-link-exact-active, .type a:hover {
+    background: rgb(83, 190, 233);
+    color: #fff;
+}
+
